@@ -15,6 +15,7 @@
 ### Key Components
 
 1. **Files for Testing:**
+
    - `calculator.js` and `users.js`: These files contain the primary methods you will be testing.
    - `tests` directory: Here, you are expected to write your test cases.
    - `data.js`: This file includes an array of user data for manipulation in tests.
@@ -22,18 +23,29 @@
 
 2. **Specific Testing Tasks:**
 
-    a. **FizzBuzz Function:**
-       - Develop a function that accepts a number and evaluates the following conditions:
-          - If divisible by 3, return 'Fizz'.
-          - If divisible by 5, return 'Buzz'.
-          - If divisible by both 3 and 5, return 'FizzBuzz'.
-          - Otherwise, return the original number.
+   a. **FizzBuzz Function:**
 
-    b. **DNA String Filter:**
-       - Create a function to process a DNA string (e.g., 'CTAGGGTA').
-       - The function should remove any non-canonical DNA bases (anything other than 'C', 'T', 'A', 'G').
-       - The function should be case sensitive (keep 'C' but remove 'c').
-       - If the DNA string is empty, return an empty string.
+   - Develop a function that accepts a number and evaluates the following conditions:
+     - If divisible by 3, return 'Fizz'.
+     - If divisible by 5, return 'Buzz'.
+     - If divisible by both 3 and 5, return 'FizzBuzz'.
+     - Otherwise, return the original number.
 
-    c. **Factorial Calculation:**
-       - Implement a function to calculate the factorial of a number using recursion.
+   b. **DNA String Filter:**
+
+   - Create a function to process a DNA string (e.g., 'CTAGGGTA').
+   - The function should remove any non-canonical DNA bases (anything other than 'C', 'T', 'A', 'G').
+   - The function should be case sensitive (keep 'C' but remove 'c').
+   - If the DNA string is empty, return an empty string.
+
+   c. **Factorial Calculation:**
+
+   - Implement a function to calculate the factorial of a number using recursion.
+
+## npm test resultados
+
+![Alt text](image.png)
+
+## bun test resultados
+
+![Alt text](image-1.png)
