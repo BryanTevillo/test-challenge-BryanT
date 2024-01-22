@@ -1,4 +1,4 @@
-const factorial = (num) => {
+const factorial = (num = 1) => {
   return num === 0 ? 1 : factorial(num - 1) * num;
 };
 
