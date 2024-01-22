@@ -2,15 +2,15 @@ const fizzBuzz = require("../fizzBuzz");
 
 describe("Se realizan pruebas unitarias al programa fizzBuzz", () => {
   test("deberia devolver Fizz cuando se ingrese 3", () => {
-    expect(fizzBuzz(3)).toBe("Fizz");
+    expect(fizzBuzz(3)).toStrictEqual("Fizz");
   });
 
   test("deberia devolver Buzz cuando se ingrese 5", () => {
-    expect(fizzBuzz(5)).toBe("Buzz");
+    expect(fizzBuzz(5)).toStrictEqual("Buzz");
   });
 
   test("deberia devolver FizzBuzz cuando se ingrese 15", () => {
-    expect(fizzBuzz(15)).toBe("FizzBuzz");
+    expect(fizzBuzz(15)).toStrictEqual("FizzBuzz");
   });
 
   test("deberia devolver el mismo numero que se envia  cuando se ingrese 4", () => {

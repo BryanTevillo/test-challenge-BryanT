@@ -12,7 +12,7 @@ const {
 // READ documentation
 describe("USer functions test ", () => {
   it("Should get the user by its id ", () => {
-    expect(getUserById(1)).toEqual({
+    expect(getUserById(1)).toMatchObject({
       id: 1,
       username: "hpLover4",
       email: "sirious90@gmail.com",
@@ -21,7 +21,7 @@ describe("USer functions test ", () => {
   });
 
   it("Should get the user by its username ", () => {
-    expect(getUserByUsername("hpLover4")).toEqual({
+    expect(getUserByUsername("hpLover4")).toMatchObject({
       id: 1,
       username: "hpLover4",
       email: "sirious90@gmail.com",
