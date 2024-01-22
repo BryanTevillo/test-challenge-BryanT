@@ -13,7 +13,7 @@ describe("Pruebas al programa factorial", () => {
     expect(factorial(0)).toBe(1);
   });
 
-  test("Factorial parametro vacio ('') es igual a  1", () => {
+  test("Factorial parametro vacio () es igual a  1", () => {
     expect(factorial()).toBe(1);
   });
 });
